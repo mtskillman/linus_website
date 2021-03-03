@@ -10,7 +10,8 @@ import {col_two} from "./parts/col_two"
 import {useEffect} from "react"
 
 const style = {
-    'margin-bottom': '150px'
+    'margin-bottom': '150px',
+    'margin-top': '50px'
 }
 
 function App() {
