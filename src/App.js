@@ -9,13 +9,17 @@ import {bot} from "./parts/bot"
 import {col_two} from "./parts/col_two"
 import {useEffect} from "react"
 
+const style = {
+    'margin-bottom': '150px'
+}
+
 function App() {
     useEffect(() => {
         document.title = "Matt's Linus Savings Review | 2021"
     }, []);
 
     return (
-        <div className="App">
+        <div style={style} className="App">
             <RootElement
                 topPortion={TopPortion()}
                 titleBar={MyHero()}
