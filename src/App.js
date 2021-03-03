@@ -7,19 +7,24 @@ import {MyHero} from "./parts/hero"
 import {col_one} from "./parts/col_one"
 import {bot} from "./parts/bot"
 import {col_two} from "./parts/col_two"
+import {useEffect} from "react"
 
 function App() {
-  return (
-    <div className="App">
-      <RootElement
-      topPortion={TopPortion()}
-      titleBar={MyHero()}
-      columnOne={col_one()}
-      bottomPortion={bot()}
-      columnTwo={col_two()}
-      />
-    </div>
-  );
+    useEffect(() => {
+        document.title = "Matt's Linus Savings Review | 2021"
+    }, []);
+
+    return (
+        <div className="App">
+            <RootElement
+                topPortion={TopPortion()}
+                titleBar={MyHero()}
+                columnOne={col_one()}
+                bottomPortion={bot()}
+                columnTwo={col_two()}
+            />
+        </div>
+    );
 }
 
 export default App;
