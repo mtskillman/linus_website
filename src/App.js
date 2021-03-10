@@ -11,7 +11,8 @@ import {useEffect} from "react"
 
 const style = {
     'margin-bottom': '150px',
-    'margin-top': '50px'
+    'margin-top': '50px',
+    'font-family': 'Arial, Helvetica, sans-serif'
 }
 
 function App() {
