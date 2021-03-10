@@ -8,7 +8,9 @@ export const col_one = () => {
         </p>
         <hr/>
         <p>
-            I will be posting screenshots on the right with updates on my usage of their platform. 
+            I will be posting screenshots on the right with updates on my usage of their platform.
         </p>
+        <hr/>
+        <a href="https://app.getlinus.io/open?referral_code=NemKCYKjOTdR6tiMR39SIsAKekxaBJ1qHidKt4Yz">CLICK FOR $20 BONUS ON LINUS</a>
     </div>
 }
